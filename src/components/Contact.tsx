@@ -24,9 +24,9 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button variant="hero" asChild>
-              <a href="mailto:hello@spacesquare.dev">
+              <a href="mailto:info@spacesquare.dev">
                 <Mail className="w-5 h-5" />
-                hello@spacesquare.dev
+                info@spacesquare.dev
               </a>
             </Button>
           </div>
@@ -36,8 +36,8 @@ const Contact = () => {
             <div className="p-6 rounded-2xl bg-card-gradient border border-border">
               <Mail className="w-6 h-6 text-primary mb-3" />
               <h3 className="font-display font-semibold text-foreground mb-1">Email</h3>
-              <a href="mailto:hello@spacesquare.dev" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-                hello@spacesquare.dev
+              <a href="mailto:info@spacesquare.dev" className="text-muted-foreground text-sm hover:text-primary transition-colors">
+                info@spacesquare.dev
               </a>
             </div>
             <div className="p-6 rounded-2xl bg-card-gradient border border-border">
