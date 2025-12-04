@@ -8,6 +8,9 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const basePath =
+  new URL(import.meta.env.BASE_URL, window.location.href).pathname.replace(/\/+$/, "") || "/";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
